@@ -1,0 +1,103 @@
+
+body {
+  background-color: #fff;
+  color: #000;
+ font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+/* navbar*/
+.bg-navbar {
+ background: linear-gradient(to right, #28a745, #1a1a1a);
+
+}
+
+.navbar-brand p {
+  margin: 0;
+  font-weight: 700;
+  color: greenyellow;   
+}
+
+.navbar-brand p span {
+  color: azure;
+}
+.nas{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: larger;
+}
+.nas:hover{
+    color: #d4ed02;
+
+  text-decoration: underline;
+}
+
+
+.business-opportunities {
+  background: linear-gradient(135deg, #000 50%, #0d5325 100%);
+  color: white;
+}
+
+.opportunity-card {
+  background-color: #111;
+  border: 1px solid #1f6f2f;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.opportunity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(40, 167, 69, 0.5);
+}
+
+.opportunity-card .card-title {
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  border-radius: 30px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+footer.site-footer {
+  background: linear-gradient(to right, #1a1a1a, #28a745); /* black → green gradient */
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+footer.site-footer a {
+  color: #d4ed02; /* lime accent for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+}
+
